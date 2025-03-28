@@ -1,0 +1,555 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: "Raleway";
+}
+
+h1{
+    font-family: "Raleway", sans-serif;
+
+color:white;
+font-size:3.5rem;
+}
+h2, p{
+    text-align:center;
+    margin-bottom: 1.5rem;
+}
+
+/* Navbar css */
+nav{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+height:58px;
+width:100%;
+background-color:rgb(255, 255, 255);
+position:fixed;
+color:rgb(0, 0, 0);
+display:flex;
+justify-content: space-between;
+align-items: center;
+border:1px slateblue;
+box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.86),
+
+
+}
+header nav ul {
+    list-style: none;
+        display:flex;
+        color:rgb(0, 0, 0);
+        height:58px;
+        align-items: center;
+}
+header nav li {
+    margin-right: 2rem;
+    text-transform: uppercase;
+height:100%;
+display:flex;
+align-items: center;
+ 
+
+}
+header nav li:hover{
+background-color: grey;
+}
+header nav ul li a{
+    text-decoration: none;
+color:rgb(0, 0, 0);
+
+}
+li a{
+    text-decoration: none;
+color:rgb(0, 0, 0);
+list-style: none;
+
+}
+header nav ul li span{
+    margin-right:.3rem;
+}
+
+/* Hero */
+.section-hero{
+    background-color:rgb(0, 0, 0);
+}
+.hero{
+    background-image: url("../assets/mac.jpg");
+height:700px;
+background-size: cover;
+width:100%;
+display:flex;
+justify-content: center;
+/* justify-content:center; */
+align-items:center
+
+}
+.hero .info{
+    border:1px solid none ;
+    margin-bottom:2rem;
+    width:95%;
+   
+}
+.hero .info p{
+    margin-top:2rem;
+    color:white;
+}
+
+.main-btn{
+    margin-top:2rem;
+    padding:1rem;
+    font-size:1rem;
+   background-color: white;
+   opacity: .6;
+}
+.main-btn:hover{
+    opacity:.9
+}
+
+/* about css */
+.section-about{
+    /* background-color: rgb(219, 95, 95); */
+    display:flex;
+    justify-content: center;
+    /* border:1px solid red; */
+    height: 600px;;
+}
+.section-about .about-wrapper{
+margin-top:6rem;
+margin-bottom:6rem;
+}
+
+.about-wrapper p{
+margin-top: 2rem;
+margin-bottom: 2rem;
+text-align:center;
+}
+.feactures{
+    padding-top: 2rem;
+    width:95%;
+    margin: auto;
+    color:black;
+    background-color: white;
+    display:flex;
+    text-align: center;
+}
+.section-about .about-wrapper h2{
+    text-align: center;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif !important;
+}
+.feactures .icon{
+    font-size:3.6rem;
+    
+}
+.feactures .feact-box h5{
+    font-family: "Raleway";
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.feact-box{
+    margin-right: .5rem;
+}
+
+/* design css */
+.section-design{
+    background-color:  #f1f1f1!important;
+padding-top:5rem;
+padding-bottom:5rem;
+}
+.design-wrapper{
+    /* border:1px solid blue; */
+   background-color:  #f1f1f1!important;
+   height:500px;
+   display:flex;
+   width:95%;
+   margin: auto;
+}
+.design-wrapper .img-box img{
+    border-radius: 1rem;
+    height:394px;
+}
+.design-wrapper h4{
+    font-size: 1.6rem;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+
+}
+.design-wrapper p{
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+
+}
+.design-wrapper .content .main-btns{
+    margin-top:.7rem;
+    padding:1rem;
+    font-size:1rem;
+    color:white;
+   background-color: rgb(0, 0, 0) !important;
+  
+}
+
+/* Team CSS */
+.team-section{
+    background-color:white;
+    padding-top:3.5rem;
+    padding-bottom:4.5;
+    display:flex;
+    justify-content: center;
+
+}
+.team-section .team-wrapper{
+    height:600px;
+    width:95%;
+    /* border:1px solid black; */
+}
+.team {
+   
+    display:flex;
+    justify-content:space-between
+}
+.team-wrapper .team .card{
+    background-color:rgb(173, 159, 159)(151, 81, 81);
+    /* border:1px solid red; */
+    width:310px;
+    box-shadow: 4px    1px rgb(56, 66, 70);
+  z-index: 2;
+   
+}
+.team-wrapper .card img {
+    width: 100%;
+    height: auto;
+  }
+  .team-wrapper .card .member-info{
+    padding:.5rem;
+    
+  }
+  .team-wrapper .member-info h5{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+ .team-wrapper .member-info .post{
+    text-align: left;
+    font-size: 1rem;
+    color: #a09494;
+    
+  }
+  .team-wrapper .member-info p{
+    text-align: left;
+    font-size: 1rem;
+    margin-top:1rem;
+
+  }
+  
+  .team-section .card button{
+    width: 100%;
+    padding:.5rem;
+
+  }
+
+  .team-section .card button{
+    font-size:1rem;
+    border:none;
+    margin-bottom:1rem;
+
+  }
+  .team-wrapper .card  span{
+    margin-right:.3rem;
+  }
+
+ /* Statistic css */
+ .stats{
+    color:#fff;
+   background-color: #616161!important; 
+
+ }
+ .stats .container{
+    margin:auto;
+    padding-top:4rem;
+    padding-bottom:4rem;
+    width:95%;
+    text-align:center;
+display:flex;
+
+justify-content: space-between;
+ }
+ .stats h4{
+    font-size:xx-large;
+    margin-bottom:1rem;
+ }
+
+/* Work section */
+.our-work{
+    background-color:#fff;
+    margin-top:4rem;
+    margin-bottom:4rem;
+
+}
+.our-work .container {
+    width:95%;
+    margin:auto
+}
+.our-work .outer{
+    display:flex;
+   
+    justify-content:space-between;
+    margin-top:1rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+.our-work .outer .card {
+    width: 300px;
+    height:auto;
+    
+}
+.our-work .outer .card img{
+    width: 100%;
+    height:auto;
+    
+    
+}
+
+/* skills css */
+.skills-sections {
+    background-color:#f1f1f1 !important;
+color:black;
+
+}
+
+.skills-sections .container{
+    width:95%;
+    margin:auto;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    text-align:left !important;
+    display:flex;
+    justify-content:space-between;
+}
+.skills-sections .box1{
+   
+ 
+width:50%;
+padding-top:2rem;
+}
+.skills-sections .box1 h4{
+    margin-top:1rem;
+    text-align:left;
+    font-size:18px;
+    }
+.skills-sections .box1 p{
+margin-top:1rem;
+text-align:left;
+}
+.skills-sections .box2{
+    
+
+    width:50%;
+
+}
+.skills-sections .box2 p{
+    text-align:left;
+}
+.skills-sections .box2 .photo
+{
+    height:24px;
+    background-color:rgb(211, 200, 200);
+    display:flex;
+    width: 100%; 
+    color:white;
+
+}
+.photo .full {
+    width:90% !important;
+   
+    background-color:rgb(96, 100, 102);
+    text-align:center;
+}
+.photo .web {
+    width:85% !important;
+   
+    background-color:rgb(96, 100, 102);
+    text-align:center;
+}
+.photo .graphy {
+    width:75% !important;
+   
+    background-color:rgb(96, 100, 102);
+    text-align:center;
+}
+ .skills-sections .box2 p{
+    margin-top:12px;
+}
+
+/* pricing section */
+
+.pricing-section{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color:#616161;
+    color: #fff;
+    text-align: center;
+    /* #000 */ */
+}
+.pricing-section .container{
+    padding-top:4rem;
+    padding-bottom:4rem;
+    width:95%;
+    margin:0 auto;
+}
+.pricing-section .card {
+    width:400px;
+    
+}
+.pricing-section .card-outer {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.pricing-section .card-outer .title{
+  text-align: center;
+  padding-top:2rem;
+  padding-bottom:2rem;
+    background-color: #000;
+    color:#fff;
+
+}
+.pricing-section .card{
+    background-color: #fff;
+    color:#000;
+}
+.pricing-section .card p{
+    margin-bottom:1.2rem;
+    margin-top:1.2rem;
+}
+.pricing-section .card span{
+    font-weight: 800;
+}
+.pricing-section .card-outer .footer{
+    text-align: center;
+    padding-top:2rem;
+    padding-bottom:2rem;
+      background-color: #ddd;
+      color:#fff;
+  
+  }
+  .pricing-section .card-outer .card button{
+    background-color: #000;
+    color:#fff;
+    border:none;
+font-size:larger;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-right:1.2rem;
+    padding-left:1.2rem;
+  }
+  .pricing-section .card-outer .card button:hover{
+    background-color: #b9b5b5;
+  }
+  .pricing-section .card .price{
+    padding-top: 1.5rem;
+   
+    padding-bottom:1.5rem;
+  }
+  .pricing-section .card .doll{
+    font-size:1.5rem;
+  }
+  .pricing-section .price p{
+    margin-bottom:.5rem !important;
+  }
+  /* pro card */
+  .pricing-section .card  .pro{
+    background-color: #f44336 !important;
+    padding-top:3rem;
+    padding-bottom:3rem;
+  }
+  /* // Contanct css */
+  .contact-section {
+    background-color:#f1f1f1;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+  }
+  .contact-section .contact-container{
+    width:95%;
+    margin:auto;
+  }
+  .contact-section   .address p{
+    text-align:left !important;
+  }
+
+ .contact-section   .address .icons{
+    font-size:1.7rem !important;
+    margin-right:1.5rem;
+  }
+  
+  .contact-section input[type=text]{
+    width:100%;
+    padding:8px;
+    border:none;
+    margin-top:1.5rem;
+    height: 2.5rem;
+    z-index: 4;
+  }
+  .contact-section .mess-btn{
+background-color: #000 !important;
+color:#f1f1f1;
+margin-top:2rem;
+    padding:.8rem;
+    font-size:.8rem;
+  }
+ .contact-section .mess-btn:hover{
+    background-color:#f1f1f1;
+ }
+
+ /* Footer design */
+ .footer-section{
+    background-color: #000;
+    
+ }
+ .footer{
+    
+  padding-top:4rem;
+    padding-bottom:4rem;
+    width:95%;
+    /* border:1px solid yellow; */
+    margin:auto;
+    text-align: center;
+ }
+ .footer-section .footer button{
+    background-color: #f1f1f1;
+    color:#000 !important;
+    padding:1rem;
+    font-size: 1rem;
+ }
+ .footer-section span:hover{
+    opacity: 0.5;
+  }
+ .footer-section .footer a{
+    text-decoration: none;
+    color:#000;
+ }
+.footer button .fa-arrow-up{
+    font-size:1rem;
+    color:#000;
+    margin-right:1rem;
+}
+.footer-section .footer .social-icons a {
+    
+color:#fff!important;
+}
+.footer-section .footer .social-icons {
+    margin-top: 1rem;
+}
+.footer-section .footer .social-icons a{
+    font-size:1.5rem;
+}
+.footer-section .footer .social-icons a:hover{
+    opacity: .8rem;
+ }
